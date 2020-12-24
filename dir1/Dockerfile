@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-LABEL maintainer = "lnreddy1986@gamil.com"
-RUN apt-get udpate
+LABEL maintainer="rudratechnologies.cloud@gmail.com"
+RUN apt-get update
 RUN apt-get install git -y
-CMD ["echo", "welcome to samvidha"] 
+CMD ["echo", "welcome to rudra technologies"]
